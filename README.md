@@ -25,3 +25,17 @@ Host: httpbin.org
 ```
 
 ### Response Samples
+```console
+HTTP/1.1 200 OK
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Date: Fri, 24 Aug 2018 02:23:01 GMT
+Content-Type: application/xml
+Content-Length: 522
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Via: 1.1 vegur
+```
+
+* Note:
+    * HTTP is stateless - it does not remember the previous request
